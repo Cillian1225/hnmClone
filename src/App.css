@@ -1,0 +1,184 @@
+.nav-header {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.side-menu-list button {
+  margin: 5px;
+  border: none;
+  background: none;
+  width: 120px;
+}
+.nav-header * {
+  margin-right: 10px;
+  margin-top: 20px;
+}
+.login-button {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+}
+.login-button:hover {
+  cursor: pointer;
+}
+.ProductAll-continer {
+  display: flex;
+}
+.nav-logo {
+  display: flex;
+  justify-content: center;
+}
+.nav-logo:hover {
+  cursor: pointer;
+}
+.hide {
+  visibility: hidden;
+}
+
+.nav-section {
+  display: flex;
+  justify-content: center;
+}
+.menu-list {
+  display: flex;
+  list-style-type: none;
+}
+.menu-list li {
+  padding: 10px;
+}
+.menu-area {
+  display: flex;
+  justify-content: center;
+}
+.menu-search {
+  display: flex;
+  border: solid 1px yellow;
+}
+.menu-list-box {
+  display: flex;
+  margin-right: 60vh;
+  justify-content: center;
+}
+.menu-second {
+  display: flex;
+  border: solid 1px red;
+  justify-content: flex-end;
+}
+.search-box {
+  justify-content: flex-end;
+  display: flex;
+  margin-top: 10px;
+}
+.search-box input {
+  border: none;
+  margin-left: 5px;
+  margin-left: 20px;
+}
+.search-box input:focus {
+  outline: none;
+}
+.login-container {
+  justify-content: center;
+  display: flex;
+}
+.login-box {
+  justify-content: center;
+  display: flex;
+  padding: 10vh;
+}
+.card {
+  border: none !important;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.card:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
+.product-detail-img {
+  display: flex;
+}
+
+.product-detail-card {
+  margin-top: 20px;
+  display: flex;
+}
+.add-button {
+  border: solid 1px purple;
+  margin-top: 20px;
+  width: 100%;
+}
+
+@media screen and (max-width: 63rem) {
+  .hide {
+    visibility: visible;
+  }
+  .menu {
+    display: none;
+  }
+  .search-box {
+    display: none;
+  }
+}
+/** Side menu Design**/
+.side-menu {
+  height: 100%;
+  position: fixed;
+  top: 0;
+  margin-top: 0;
+  left: 0;
+  background-color: #faf9f8;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  z-index: 2;
+}
+.side-menu button {
+  margin: 5px;
+  width: 100%;
+  border: none;
+  background: none;
+  justify-content: flex-start;
+}
+.side-menu .closebtn {
+  position: absolute;
+  bottom: 50%;
+  left: 270px;
+  font-size: 36px;
+  border: none;
+  background: none;
+}
+.close-btn-container {
+  height: 100%;
+}
+.side-menu-list {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-right: px;
+  align-items: flex-start;
+}
+.side-menu-list button {
+  margin-bottom: 30px;
+  margin-left: 20px;
+  width: 100%;
+}
+.side-menu-list button:hover {
+  border-radius: 3px;
+  color: #771138;
+}
+.side-bar-login {
+  display: flex;
+  justify-content: flex-start;
+  background: #f1ebdf;
+  margin-bottom: 20px;
+}
+
+.side-menu-list button h1 {
+  width: 100%;
+  font-size: 23px;
+  text-align: left;
+}
