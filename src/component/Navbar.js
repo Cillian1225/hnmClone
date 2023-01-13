@@ -49,7 +49,7 @@ const Navbar = ({ authenticate, setAuthenticate }) => {
             </button>
           ))}
         </div>
-        <div clasName="close-btn">
+        <div className="close-btn">
           <button className="closebtn" onClick={() => setWidth(0)}>
             X
           </button>
